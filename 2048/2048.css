@@ -1,0 +1,28 @@
+body {background-color : #FAF8EF;}
+
+#h1_2048{
+  color: #776E65;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+#button_init{
+  background-color : #8F7A66;
+  color : #FFFFFF;
+  border : none;
+  font-size : 30px;
+}
+
+#board{
+  margin-left : 70px;
+  margin-top : 5px;
+}
+table{
+  border-collapse:collapse;
+}
+
+td{
+  border: 15px solid #BBADA0;
+  width: 70px;
+  height: 70px;
+}
