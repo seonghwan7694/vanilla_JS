@@ -5,39 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2048</title>
-    <style></style>
+    <link rel="stylesheet" type="text/css" href="./2048.css">
   </head>
-  <link rel="stylesheet" type="text/css" href="./2048.css">
   <body>
-    <h1 id = "h1_2048">2048</h1>
-    <button id = "button_init">New Game</button>
-    <a id = "score"></a>
-    <table id = "board" border = 0>
-      <tr>
-        <td id = "00"></td>
-        <td id = "01"></td>
-        <td id = "02"></td>
-        <td id = "03"></td>
-      </tr>
-      <tr>
-        <td id = "10"></td>
-        <td id = "11"></td>
-        <td id = "12"></td>
-        <td id = "13"></td>
-      </tr>
-      <tr>
-        <td id = "20"></td>
-        <td id = "21"></td>
-        <td id = "22"></td>
-        <td id = "23"></td>
-      </tr>
-      <tr>
-        <td id = "30"></td>
-        <td id = "31"></td>
-        <td id = "32"></td>
-        <td id = "33"></td>
-      </tr>
-    </table>
+    <div class="main">
+      <h1 id="title">2048</h1>
+      
+      <br>
+
+      <button id="SCORE">SCORE<br><b id="SCORE_SCORE">0</b></button>
+      <button id="BEST">BEST<br><b id="BEST_SCORE">0</b></button>
+
+      <br>
+      <br>
+      
+      <div id="sub_title">
+        Play game and Make 2048 tile!
+      </div>
+
+      <br>
+
+      <table id="board">
+        <tr>
+          <td id = "00"></td>
+          <td id = "01"></td>
+          <td id = "02"></td>
+          <td id = "03"></td>
+        </tr>
+        <tr>
+          <td id = "10"></td>
+          <td id = "11"></td>
+          <td id = "12"></td>
+          <td id = "13"></td>
+        </tr>
+        <tr>
+          <td id = "20"></td>
+          <td id = "21"></td>
+          <td id = "22"></td>
+          <td id = "23"></td>
+        </tr>
+        <tr>
+          <td id = "30"></td>
+          <td id = "31"></td>
+          <td id = "32"></td>
+          <td id = "33"></td>
+        </tr>
+      </table>
+      
+      <br><br>
+      <button id="btn">
+        New Game
+      </button>
+
+    </div>
   </body>
-  <script type="text/javascript" src = "./2048.js"></script>
-</ha
+  <script type="text/javascript" src = "./2048.js?ver=1"></script>
+</head>
